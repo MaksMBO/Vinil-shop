@@ -447,13 +447,14 @@ body {
 .header__wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
 }
 
 .header__list{
     display:flex;
     flex-wrap: wrap;
+  
 }
 
 .basket__logo {
@@ -484,16 +485,25 @@ body {
     line-height: 22px;
     color: #4B4B4B;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+ 
 }
 
-.header__link:hover, .header__link:focus, .basket-link:hover, .basket-link:focus {
+.basket-polygon-link {
+    display: flex;
+    align-items: center;
+}
+
+.header__link:hover, .basket-link:hover, .header__link:active {
     opacity: 75%;
 }
 
-/* .header__link:active {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: #4B4B4B;
-} */
+
+.intro {
+    height: 100vh;
+
+    background: url('../img/background.jpg') no-repeat center; 
+    background-size: cover;
+}
 
