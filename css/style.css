@@ -335,7 +335,7 @@ textarea {
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #b3d4fc; 
     text-shadow: none;
 }
 
@@ -522,36 +522,165 @@ body {
     margin-bottom: 28px;
 }
 
+
 .intro__subtitle {
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
     background: linear-gradient(90.36deg, #FC8800 19.96%, #FFA318 73.95%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 28px;
 }
 
-.purchase {   
+.intro__subtitle::selection {
+    background: #b3d4fc7a;; 
+}
+
+.intro__subtitle::-moz-selection {
+    background: #b3d4fc7a;; 
+}
+
+.intro__title::selection {
+    background: #b3d4fc7a;; 
+}
+
+.intro__title::-moz-selection {
+    background: #b3d4fc7a;; 
+}
+
+.button_more {   
     width: 300px;
     height: 59px;
     background: linear-gradient(92.4deg, #FC8800 5.84%, #FA9F17 92.96%);
     border-radius: 110px;
     border: 0;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 32px;
 }
 
-.purchase:hover {
+
+.button_more:hover {
     opacity: 90%;
 }
 
-.purchase:active {
+.button_more:active {
     opacity: 75%;
+}
+
+.purchase {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    text-decoration: none;
+    color:#000;
+    padding: 15px 62px 15px 90px;
+    border-radius: 110px;
 }
 
 .shadow {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+
+.turntables {
+    max-width: 1181px;
+    margin: 0 auto;
+}
+
+.turntables_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.turntables_text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.turntable_card_manufacturer-title {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.turntable_card-title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 87px;
+    max-width: 206px;
+    height: 36px;
+    margin-bottom: 41px;
+    
+}
+
+.price {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.position_button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.button {
+    margin-top: 7px;
+   
+    
+    width: 145.12px;
+    height: 53px;
+    
+    background: #FFA319;
+    box-shadow: 0px 9px 35px rgba(255, 163, 25, 0.51);
+    border-radius: 110px;
+    border: 0;
+}
+
+.turntable_card-buy {
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding: 17px 43px 17px 43px;
+    border-radius: 110px;
+}
+
+.button:hover {
+    opacity: 90%;
+}
+
+.button:active {
+    opacity: 75%;
+}
+
+/* .list__page {    
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* .polygon {
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.number__page {
+    /* margin-left: 59px; */
+    /* margin-right: 59px;
+} */
+
+/* .list__page:last-child {
+    margin-left: 0px;
+} */
