@@ -703,6 +703,12 @@ input[type="search"] {
 .first__second-block {
   margin-top: 165px;
 }
+img[alt="search"] {
+  margin-left: -17px;
+}
+input[type="search"] {
+  outline: none;
+}
 .back_to_shop {
   color: black;
   margin-top: 60px;
