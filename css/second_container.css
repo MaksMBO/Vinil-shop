@@ -13,3 +13,14 @@
   line-height: 59px;
   color: #FFFFFF;
 }
+.album__all {
+  margin-bottom: 40px;
+}
+.row.row-cols-4 {
+  margin: auto;
+  margin-top: 44px;
+}
+.albums__cover-pic {
+  width: 281px;
+  height: 273px;
+}
