@@ -15,17 +15,14 @@
   background: url(../img/jpg/background/container\ 1.jpg) top no-repeat;
   background-size: cover;
 }
-.price_button-box:checked + label input[class="amount_button-box"] {
-  pointer-events: none;
-}
-.price_button-box:checked + label input[class="brend_button-box"] {
-  pointer-events: none;
-}
-.price_button-box:checked + label label[class="brend_button"] {
-  pointer-events: none;
-}
-.price_button-box:checked + label label[class="amount_button"] {
-  pointer-events: none;
+.my__genre {
+  width: 393px;
+  height: 62px;
+  background: #F1F1F1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1000;
 }
 .my__price {
   width: 393px;
@@ -35,13 +32,6 @@
   border-radius: 5px;
   position: absolute;
   z-index: 1000;
-}
-.menu__price {
-  width: 373px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 16px 10px 16px 10px;
 }
 .start,
 .end {
@@ -60,6 +50,13 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
+}
+.menu__price {
+  width: 373px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 10px 16px 10px;
 }
 .my__brend {
   width: 200px;
@@ -104,8 +101,7 @@ input[type="checkbox"] {
   align-items: center;
 }
 .my__amount::-webkit-scrollbar,
-.my__brend::-webkit-scrollbar,
-.my__price::-webkit-scrollbar {
+.my__brend::-webkit-scrollbar {
   width: 7px;
   background-color: #c5c5c5;
 }
