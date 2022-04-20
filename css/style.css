@@ -191,9 +191,12 @@ h6 {
 .purchase__catalog {
   font-weight: 600;
   font-size: 32px;
-  line-height: 39px;
   display: flex;
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 504px;
+  height: 127px;
   color: #000000;
   text-decoration: none;
 }
@@ -219,10 +222,11 @@ h6 {
 .section__purchase {
   font-weight: 600;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 53px;
+  width: 145px;
   text-decoration: none;
   color: #000;
-  border-radius: 110px;
+  border-radius: 20px;
 }
 .button__buy:hover {
   opacity: 85%;
@@ -343,7 +347,7 @@ h6 {
 /* Contacts */
 .contacts {
   display: block;
-  min-height: 450px;
+  min-height: 94vh;
   height: 100%;
   background: #000;
   background-size: cover;
@@ -581,11 +585,11 @@ input[type="search"] {
   align-items: center;
 }
 .first__text {
-  position: absolute;
-  margin-left: 800px;
-  max-height: 408px;
-  max-width: 480px;
-  margin-top: 45px;
+  margin-top: 165px;
+  width: 100%;
+  height: 70vh;
+  background: url(/img/jpg/background/backFirst_container_first.jpg) top no-repeat;
+  background-size: cover;
 }
 .second__text {
   position: absolute;
@@ -609,12 +613,22 @@ input[type="search"] {
   line-height: 20px;
   color: #000000;
 }
-.intro__all_container {
-  min-width: 100vh;
-  min-height: 100vh;
-  background: url(../img/jpg/background/back.jpg) top no-repeat;
+.first__text .col {
+  margin-top: 45px;
+}
+.second__text_turntables {
+  margin: 0;
+  width: 100%;
+  height: 80vh;
+  background: url(/img/jpg/background/backSecond_containerFirst.jpg) top no-repeat;
   background-size: cover;
-  margin-top: 190px;
+}
+.width__second {
+  padding-top: 45px;
+  width: 60vh;
+}
+.first__second-block .col-5 {
+  margin-top: 25px;
 }
 .intro__second_container {
   display: flex;
@@ -673,4 +687,104 @@ input[type="search"] {
 }
 .genre_button-box:checked + label.label1 ~ div {
   display: inline-block;
+}
+.first__text-second {
+  width: 100%;
+  min-height: 39vh;
+  background: url(../img/jpg/background/First_second-back.jpg) top no-repeat;
+  background-size: cover;
+}
+.second__text-second {
+  width: 100%;
+  min-height: 39vh;
+  background: url(../img/jpg/background/Second_second-back.png) top no-repeat;
+  background-size: cover;
+}
+.first__second-block {
+  margin-top: 165px;
+}
+.back_to_shop {
+  color: black;
+  margin-top: 60px;
+}
+.suggestion {
+  display: flex;
+  justify-content: center;
+  max-width: 440px;
+  margin-top: 22px;
+}
+.suggestion img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+img[alt="main__photo"] {
+  width: 440px;
+  height: 440px;
+}
+img[alt="first__photo"],
+img[alt="second__photo"] {
+  width: 70px;
+  height: 70px;
+}
+.title__sell {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.subtitle__sell {
+  margin: 0;
+  margin-top: 40px;
+  max-height: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.divbutton__sell {
+  margin-top: 43px;
+}
+.button__sell {
+  width: 140px;
+  height: 39px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 110px;
+  text-decoration: none;
+}
+.sell_link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.sell .col-6 {
+  margin-left: 100px;
+}
+.tracklist {
+  margin-top: 60px;
+}
+.sell {
+  margin-top: 60px;
+}
+.offers {
+  margin-top: 106px;
+}
+.offers .h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.offers .price__number {
+  font-weight: 400;
+  font-size: 15px;
+}
+.sell_about {
+  margin-top: 100px;
+}
+.offers img {
+  width: 259.91px;
+  height: 250px;
+}
+.for_card {
+  text-decoration: none;
+  color: #000;
 }

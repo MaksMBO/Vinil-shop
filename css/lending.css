@@ -191,9 +191,12 @@ h6 {
 .purchase__catalog {
   font-weight: 600;
   font-size: 32px;
-  line-height: 39px;
   display: flex;
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 504px;
+  height: 127px;
   color: #000000;
   text-decoration: none;
 }
@@ -219,10 +222,11 @@ h6 {
 .section__purchase {
   font-weight: 600;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 53px;
+  width: 145px;
   text-decoration: none;
   color: #000;
-  border-radius: 110px;
+  border-radius: 20px;
 }
 .button__buy:hover {
   opacity: 85%;
@@ -343,7 +347,7 @@ h6 {
 /* Contacts */
 .contacts {
   display: block;
-  min-height: 450px;
+  min-height: 94vh;
   height: 100%;
   background: #000;
   background-size: cover;
