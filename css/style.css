@@ -886,3 +886,16 @@ img[alt="second__photo"] {
     font-size: 19px;
   }
 }
+.purchase__catalog {
+  width: auto;
+  height: auto;
+}
+@media (max-width: 470px) {
+  .about__card-turntable img {
+    width: 320px;
+    height: 330px;
+  }
+  .about__card-turntable {
+    margin-left: 0px;
+  }
+}
