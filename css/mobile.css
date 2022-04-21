@@ -78,9 +78,14 @@
 }
 @media (max-width: 580px) {
   .intro__programmers-title-first {
-    width: 350px;
-    font-size: 26px;
+    width: 320px;
     margin-top: 90px;
+    font-weight: 600;
+    font-size: 20px;
+    height: 48px;
+    line-height: 24px;
+    margin-top: 56px;
+    margin-bottom: 35px;
   }
   .button_more__catalog {
     width: 250px;
@@ -101,5 +106,86 @@
   }
   .about__card-turntable {
     margin-left: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    display: none;
+  }
+  .header__mobile {
+    width: 100%;
+    padding-top: 21px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(187, 187, 187, 0.5);
+    backdrop-filter: blur(10px);
+  }
+}
+@media (min-width: 992px) {
+  .header__mobile {
+    display: none;
+  }
+}
+.container__mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .intro__inner {
+    width: 100%;
+    max-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .intro_-title-first,
+  .intro_-title-second {
+    text-align: center;
+  }
+  .contacts__information-block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  .intro_-title-first,
+  .intro_-title-second {
+    width: 320px;
+  }
+  .intro_-title-first {
+    height: 154px;
+    font-weight: 900;
+    font-size: 42px;
+  }
+  .intro_-title-second {
+    width: 355px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .section__title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .button_more__catalog {
+    width: 162px;
+    height: 49px;
+  }
+  .intro__programmers,
+  .intro__records {
+    height: 307px;
+  }
+  .purchase__catalog {
+    font-weight: 500;
+    font-size: 15px;
   }
 }
