@@ -908,7 +908,7 @@ img[alt="second__photo"] {
     margin-left: 0px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .header {
     display: none;
   }
@@ -1024,5 +1024,21 @@ img[alt="second__photo"] {
 @media (min-width: 769px) {
   .mobile_image__icons {
     display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .section_records .col {
+    width: 33.3%;
+  }
+  .section_records .about__albums__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .section_records .col {
+    width: 50%;
   }
 }
