@@ -304,7 +304,7 @@
 
 @media (max-width: 768px) {
     .section_records .row {
-        height: 950px;
+        height: 900px;
         z-index: 1001;
         margin-top: 5px;
         overflow-x: scroll;
@@ -314,6 +314,10 @@
         flex-direction: column;
         // justify-content: center;
         margin: 0;
+    }
+
+    .section_records .page__number {
+        display: none;
     }
 
     .section_records img {
@@ -383,4 +387,84 @@
 .section_records .col {
     padding-left: 6px;
     padding-right: 6px;
+}
+
+@media (max-width: 990px) {
+    .sell img[alt="main__photo"] {
+        width: 370px;
+        height: 370px;
+    }
+
+    .sell .suggestion {
+        width: 400px;
+    }
+
+    .sell .col-6 {
+        margin-left: 80px;
+    }
+
+    .sell .title__sell {
+       font-weight: 700;
+        font-size: 22px; 
+    }
+}
+
+@media (max-width: 900px) { 
+    .sell .col, .sell .col-6 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .sell .col-6 {
+        margin-bottom: 40px;
+    }
+
+    .sell .subtitle__sell, .sell .divbutton__sell, .sell .tracklist {
+        width: 470px;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .sell .divbutton__sell {
+        margin-top: 15px;
+    }
+
+    .sell .subtitle__sell {
+        margin-top: 30px;
+    }
+    
+    .sell {
+        margin-top: 30px;
+    }
+
+    .back_to_shop {
+        margin-top: 34px;
+    }
+}
+
+@media (max-width: 576px) {  
+    .sell img[alt="main__photo"] {
+        width: 320px;
+        height: 320px;
+    }
+
+    .sell img[alt="first__photo"], .sell img[alt="second__photo"] {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sell .title__sell {
+        font-weight: 700;
+        font-size: 20px;
+        width: 320px;
+    }
+    
+    .sell .subtitle__sell, .sell .divbutton__sell, .sell .tracklist {
+        width: 320px;
+    }
+
 }
