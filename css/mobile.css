@@ -463,3 +463,61 @@
     margin-bottom: 60px;
   }
 }
+@media (max-width: 1200px) {
+  .turntable_section .col {
+    width: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .turntable_section .images {
+    width: 350px;
+    height: 352px;
+  }
+  .turntable_section .manufacturer {
+    margin-bottom: 10px;
+  }
+  .turntable_section .information__about {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  .turntable_section .price__number {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  .turntable_section .button__buy {
+    width: 115px;
+    height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .turntable_section .col {
+    width: 100vh;
+  }
+  .c6,
+  .c7,
+  .c8,
+  .c9 {
+    display: none;
+  }
+  .turntable_section .images {
+    width: 319px;
+    height: 319px;
+  }
+  .intro__first_container {
+    height: 321px;
+    min-height: auto;
+  }
+  .title__first_container {
+    font-weight: 600;
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .title__first_container {
+    font-size: 32px;
+  }
+}
