@@ -369,7 +369,7 @@
     }
 
     .section_records .information__about__albums {
-        font-size: 14px;
+        font-size: 13px;
         width: 150px;
     }
 
@@ -467,4 +467,85 @@
         width: 320px;
     }
 
+}
+
+@media (max-width: 1200px) {
+    .offers .col {
+        width: 33.3%;
+    }
+
+    .offers .about__albums__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offers .images__albums {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .offers .col {
+        width: 50%;
+    }
+
+    .offers .title {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .offers .col {
+        width: 100vh;
+
+    }
+
+    .offers .row {
+        
+        z-index: 1001;
+        margin-top: 5px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        color: #000000;
+        display: flex;
+        // justify-content: center;
+        margin: 0;
+    }
+
+    .offers .row {
+        height: 388px;
+        z-index: 1001;
+        margin-top: 5px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        color: #000000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .sell .suggestion {
+        width: 150px;
+    }
+
+    .sell_about {
+        margin-top: 60px;
+    }
+
+    .offers .information__about__albums {
+        margin: 0;
+        margin-top: 30px;
+    }
+    
+    .offers .title {
+        margin-bottom: 60px;
+    }
 }
