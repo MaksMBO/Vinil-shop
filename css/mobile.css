@@ -266,6 +266,17 @@
   .section_records .price__number {
     font-weight: 500;
   }
+  .section__title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .intro__programmers {
+    margin: 0;
+  }
+  .section__title {
+    font-weight: 600;
+    font-size: 20px;
+  }
 }
 @media (max-width: 576px) {
   .section_records .button_buy-pic {
@@ -287,4 +298,8 @@
     width: 150px;
     height: 180px;
   }
+}
+.section_records .col {
+  padding-left: 6px;
+  padding-right: 6px;
 }
