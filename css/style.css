@@ -1853,3 +1853,62 @@ img[alt="click_active"] {
   width: 7px;
   background-color: #c5c5c5;
 }
+.etd-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.etd-checkbox:checked + label.label_etd ~ div {
+  display: inline-block;
+}
+.etd-checkbox:not(:checked) + label.label_etd ~ div {
+  display: none;
+}
+.divvv .header_list {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  background: rgba(187, 187, 187, 0.5);
+  backdrop-filter: blur(10px);
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 39px;
+}
+.divvv .header_list a {
+  font-weight: 600;
+  font-size: 26px;
+  margin-left: 12px;
+}
+.divvv .basket__logo {
+  width: 100%;
+  max-width: none;
+  justify-content: left;
+  margin-left: 12px;
+}
+.divvv .price {
+  margin-left: 5px;
+}
+.divvv .nav__link::after {
+  display: none;
+}
+.divvv a.basket-link {
+  font-weight: 500;
+  font-size: 18px;
+}
+.divvv img[alt="Basket"] {
+  width: 39px;
+  height: 39px;
+}
+.divvv {
+  display: none;
+  position: fixed;
+  z-index: 1002;
+  top: 27px;
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  padding-right: 12px;
+}
