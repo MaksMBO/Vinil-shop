@@ -694,4 +694,29 @@
     font-weight: 600;
     font-size: 32px;
   }
+  .records_catalog .button__buy {
+    display: none;
+  }
+  .records_catalog img {
+    width: 150px;
+  }
+  .records_catalog .information__about__albums {
+    text-align: center;
+    width: 150px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .records_catalog .price__number {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+.records_catalog img:hover,
+.section_records img:hover {
+  opacity: 70%;
+}
+.records_catalog img,
+.section_records img {
+  transition: opacity .2s linear;
 }
