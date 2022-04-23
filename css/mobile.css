@@ -713,10 +713,21 @@
   }
 }
 .records_catalog img:hover,
-.section_records img:hover {
+.section_records img:hover,
+.offers img:hover {
   opacity: 70%;
 }
 .records_catalog img,
-.section_records img {
-  transition: opacity .2s linear;
+.section_records img,
+.offers img {
+  transition: opacity .3s linear;
+}
+@media (max-width: 1000px) {
+  .sub_title-all-second {
+    width: 350px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
 }
