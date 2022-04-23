@@ -1730,7 +1730,6 @@ img[alt="click_active"] {
   height: 70px;
   z-index: 1000;
   margin-top: 5px;
-  overflow-y: scroll;
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
@@ -1817,4 +1816,40 @@ img[alt="click_active"] {
 .clickss {
   display: flex;
   justify-content: space-between;
+}
+.mobile_amount-checkbox:checked + label.label_amount img[alt="click"] {
+  display: none;
+}
+.mobile_amount-checkbox:not(:checked) + label.label_amount img[alt="click_active"] {
+  display: none;
+}
+.mobile_price-checkbox:checked + label.label_price img[alt="click"] {
+  display: none;
+}
+.mobile_price-checkbox:not(:checked) + label.label_price img[alt="click_active"] {
+  display: none;
+}
+.mobile_brend-checkbox:checked + label.label_brend img[alt="click"] {
+  display: none;
+}
+.mobile_brend-checkbox:not(:checked) + label.label_brend img[alt="click_active"] {
+  display: none;
+}
+.mobile_amount-checkbox:checked + label.label_amount img[alt="click"] {
+  display: none;
+}
+.mobile_amount-checkbox:not(:checked) + label.label_amount img[alt="click_active"] {
+  display: none;
+}
+.mobile_price-checkbox:checked + label.label_price img[alt="click"] {
+  display: none;
+}
+.mobile_price-checkbox:not(:checked) + label.label_price img[alt="click_active"] {
+  display: none;
+}
+.genre::-webkit-scrollbar,
+.amount::-webkit-scrollbar,
+.brend::-webkit-scrollbar {
+  width: 7px;
+  background-color: #c5c5c5;
 }
