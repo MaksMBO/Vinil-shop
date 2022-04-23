@@ -723,11 +723,95 @@
   transition: opacity .3s linear;
 }
 @media (max-width: 1000px) {
-  .sub_title-all-second {
+  .text__second .sub_title-all-second {
     width: 350px;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+  }
+}
+@media (max-width: 768px) {
+  .first__second-block .first__text-second,
+  .text__second .second__text-second {
+    display: none;
+  }
+  .first__second-block .first_photo {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: url(/img/jpg/background/mobile_first-1-2.jpg) top no-repeat;
+    background-size: cover;
+  }
+  .text__second .second__photo {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: url(/img/jpg/background/mobile_second-1-2.jpg) top no-repeat;
+    background-size: cover;
+  }
+  .first__second-block .first_text {
+    display: flex;
+    flex-direction: column;
+    background: url(/img/jpg/background/mobile_first-2-2.jpg) top no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  .text__second .second_text {
+    display: flex;
+    flex-direction: column;
+    background: url(/img/jpg/background/mobile_second-2-2.jpg) top no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  .first__second-block .title-all {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .first__second-block .text {
+    min-height: auto;
+  }
+  .first__second-block .sub_title-all {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+  }
+  .text__second .title-all {
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .text__second .sub_title-all-second {
+    margin: 0;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+  }
+  .text__second .text {
+    min-height: auto;
+  }
+}
+@media (min-width: 769px) {
+  .first__second-block .first_text,
+  .text__second .second_text {
+    display: none;
+  }
+  .text__second .sub_title-all-second {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
+}
+@media (max-width: 576px) {
+  .first__second-block .first_photo {
+    max-height: 278px;
+    background: url(/img/jpg/background/mobile_first-1-2.jpg) top no-repeat;
+    background-size: cover;
   }
 }
