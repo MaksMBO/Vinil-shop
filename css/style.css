@@ -1875,7 +1875,7 @@ img[alt="click_active"] {
   margin: 0;
   padding: 0;
   left: 0;
-  top: 39px;
+  top: 37.73px;
 }
 .divvv .header_list a {
   font-weight: 600;
@@ -1911,4 +1911,12 @@ img[alt="click_active"] {
   justify-content: right;
   width: 100%;
   padding-right: 12px;
+}
+@media (min-width: 991px) {
+  .divvv {
+    display: none;
+  }
+}
+.divvv .nav__link.active {
+  opacity: 45%;
 }
